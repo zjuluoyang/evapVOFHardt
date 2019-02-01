@@ -111,7 +111,7 @@ int main(int argc, char *argv[])
             #include "meshCourantNo.H"
         }
         
-        twoPhaseProperties.correct();
+        twoPhaseProperties.correct();//caculate average nu from mu
 
 		// source terms for gamma equation (due to mass sources and resulting divergence in velocity field)
         alphaSourceSu = fvc::div(phi)*alpha1;
