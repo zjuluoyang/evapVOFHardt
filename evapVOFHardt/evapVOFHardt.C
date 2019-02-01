@@ -41,13 +41,13 @@ Authors
 
 #include "fvCFD.H"
 #include "MULES.H"
-#include "dynamicFvMesh.H"
-#include "dynamicRefineFvMesh.H"
+#include "dynamicFvMesh.H"//add
+#include "dynamicRefineFvMesh.H"//add for AMR
 #include "subCycle.H"
 #include "interfaceProperties.H"
-#include "twoPhaseMixture.H"
-#include "probes.H"
-#include "alphaContactAngleFvPatchScalarField.H"
+#include "twoPhaseMixture.H"//old version
+#include "probes.H"//add
+#include "alphaContactAngleFvPatchScalarField.H"//add
 #include "turbulenceModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
