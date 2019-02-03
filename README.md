@@ -1,6 +1,8 @@
 evapVOFHardt
 ============
-
+the smooth treatment of surface tension force sigmaK() is not good for the interface. using sigmainterface.k() would be more stable for the interface
+by Yang Luo 2019.02.03
+============
 This git repository was created Bruno Santos (wyldckat@github working at [blueCAPE Lda](http://www.bluecape.com.pt)), based on the original files that are available here: http://www.ttd.tu-darmstadt.de/forschung_1/openfoamdatenbank/evapvofhard.en.jsp - Quoting from that page:
 
     Solver for the simulation of two phase flows with phase change (without contact line evaporation) based on Hardt/Wondra (Journal of Computational Physics, 2008).
