@@ -25,7 +25,7 @@
         ),
         mesh
     );
-
+/*
     volScalarField alphaS
     (
         IOobject
@@ -38,7 +38,7 @@
         ),
         mesh
     );
-
+*/
     Info<< "Reading field U\n" << endl;
     volVectorField U
     (
