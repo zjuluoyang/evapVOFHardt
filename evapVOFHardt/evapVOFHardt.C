@@ -119,7 +119,7 @@ int main(int argc, char *argv[])
         
 #       include "alphaEqnSubCycle.H"
 
-#		include "surfaceTension.H"
+//#		include "surfaceTension.H"
 
         for (int loop = 0; loop < 2; loop++)
         {
